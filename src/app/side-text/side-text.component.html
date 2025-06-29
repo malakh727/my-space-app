@@ -1,0 +1,7 @@
+<!-- <div class="main">
+All about celestial bodies you find here!
+</div> -->
+<div (mouseover)="original()" class="info">
+    {{message}}
+</div>
+<app-cards (messevent)="receivemess($event)" [greet]="greet"></app-cards>

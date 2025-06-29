@@ -1,0 +1,28 @@
+p {
+    margin-left: 1em;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin-top: 13em;
+    margin-left: 3em;
+    height: 90px;
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.centered {
+
+    position: absolute;
+    font-weight: bold;
+    color: blanchedalmond;
+    font-size: 0.7em;
+    margin-left: 6em;
+    margin-top: 22em;
+}

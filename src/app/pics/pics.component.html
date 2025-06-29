@@ -1,0 +1,11 @@
+<div class="container">
+    <img [attr.src]="imageChange">
+    <button class="prev" (click)="prev()">&#10094;</button>
+    <button class="next" (click)="next()">&#10095;</button>
+    <div class="caption">{{cap[num]}}</div>
+    <div class="write">
+        Write your name between the stars
+        <input type="text" [value]="name">
+    </div>
+    <div class="centered">{{ name }}</div>
+</div>

@@ -1,0 +1,37 @@
+.container {
+    width: 80%;
+    margin: 0.2em auto;
+}
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1473806189829-9641421a59f1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fA%3D%3D&w=1000&q=80");
+    padding: 0.6em 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a.logo {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+
+li a {
+    padding: 1em;
+}
+
+li a:hover {
+    background-color: #2B344A;
+}
